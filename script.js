@@ -1,10 +1,9 @@
 let btn = document.querySelector("#btn");
 let loadedComments = document.querySelector("#loadedComments");
-loadedComments = "";
 let comment = document.querySelector("#comment").value;
-    let comments = [];
-    let badValues =["viagra", "XXX"];
-    let censure = "***";
+let comments = [];
+let badValues =["viagra", "XXX"];
+let censure = "***";
 
 
 btn.addEventListener('click', () => {
