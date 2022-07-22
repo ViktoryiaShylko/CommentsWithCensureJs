@@ -5,16 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/style.css">
-    <title>Anonymous comments</title>
+    <title>Censured comments</title>
 </head>
 <body>
-    <div id="container">
-        <div id="pic"><img src="/images/original.jpeg" alt="cat"></div>
-        <div id="loadedComments"></div>
-        <div id="commentsContainer">
-            <input id="comment">
-            <button id="btn">Добавить комментарий</button>
+    <div class="container">
+        <img class="img" src="/images/original.jpeg" alt = "cat" >
+        <h1 class="title">Введите комментарий:</h1>
+        <div class="comment">
+            <input type="text" class="input" placeholder="ваш комментарий">
+            <button class="btn">Отправить</button>
         </div>
+        <div class="output"></div>
     </div>
     <script src="/script.js"></script>
 </body>

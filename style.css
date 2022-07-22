@@ -1,0 +1,52 @@
+.img{
+    width: 100%;
+}
+.container {
+    width: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+   
+}
+.comment {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.input {
+    width: 70%;
+    padding: 2%;
+    outline: none;
+}
+.btn {
+    padding: 2%;
+    background-color: rgb(209, 209, 209);
+    border: none;
+}
+.btn:hover {
+    cursor: pointer;
+    background-color: rgb(176, 176, 176);
+}
+.output {
+    width: 100%; 
+}
+.commentContainer {
+    height: fit-content;
+    border: 2px solid  rgb(209, 209, 209);
+    padding: 2%;
+    margin: 5% 0;
+    display: flex;
+    justify-content: space-between;
+}
+.photo {
+    width: 10%;
+    height: 100%;
+}
+.commentText {
+    width: 65%; 
+}
+.date {
+    font-size: 10px;
+    color: rgb(209, 209, 209);
+}
